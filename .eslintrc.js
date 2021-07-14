@@ -151,7 +151,6 @@ module.exports = {
     'no-this-before-super': 'error',
     'no-throw-literal': 'error',
     'no-trailing-spaces': 'error',
-    'no-undef': 'error',
     'no-undef-init': 'error',
     'no-unexpected-multiline': 'error',
     'no-unmodified-loop-condition': 'error',
