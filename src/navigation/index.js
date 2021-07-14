@@ -18,7 +18,7 @@ const Navigation = () => {
                     name="LocationSearch"
                     component={LocationSearch}
                     options={{
-                      title: 'Search Location'
+                      title: 'Location'
                     }}
                 />
                 <Stack.Screen

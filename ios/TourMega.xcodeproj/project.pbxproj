@@ -14,6 +14,7 @@
 		2F986B9B7446A4A965851934 /* libPods-TourMega-TourMegaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 912B782ABB6729185DEC9A53 /* libPods-TourMega-TourMegaTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B8BC6455AE9E54C13F75A706 /* libPods-TourMega.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 620626DB5D4A6FEF5AE506FF /* libPods-TourMega.a */; };
+		EFEE69DF269F685A003B0E66 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = EFEE69DE269F685A003B0E66 /* fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		912B782ABB6729185DEC9A53 /* libPods-TourMega-TourMegaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TourMega-TourMegaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A28261F49AC37815191FE8 /* Pods-TourMega.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourMega.debug.xcconfig"; path = "Target Support Files/Pods-TourMega/Pods-TourMega.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EFEE69DE269F685A003B0E66 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		F48A10AD68365C273D41B373 /* Pods-TourMega.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourMega.release.xcconfig"; path = "Target Support Files/Pods-TourMega/Pods-TourMega.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				EFEE69DE269F685A003B0E66 /* fonts */,
 				13B07FAE1A68108700A75B9A /* TourMega */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* TourMegaTests */,
@@ -145,7 +148,6 @@
 				7AE76B743368F7E30234C2BA /* Pods-TourMega-TourMegaTests.debug.xcconfig */,
 				5CB8886199B389E92C65FE79 /* Pods-TourMega-TourMegaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -241,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEE69DF269F685A003B0E66 /* fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
